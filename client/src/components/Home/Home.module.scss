@@ -1,0 +1,20 @@
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 1rem;
+    margin: 5rem;
+    width: 80%;
+    right: 20px;
+    position: absolute;
+    border: 5px solid gold;
+
+
+    &__chart {
+        width: 900px;
+        height: 500px;
+        margin: 10px;
+        border: 1px solid rgb(202, 202, 202);
+        flex: 1;
+    }
+}

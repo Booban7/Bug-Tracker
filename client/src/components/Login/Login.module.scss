@@ -1,0 +1,33 @@
+.login {
+    border: 5px solid red;
+    width:350px;
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: auto;
+
+    &__header {
+        margin: auto;
+            }
+
+            &__label {
+                
+
+            }
+
+    &__inputfield {
+        width: 300px;
+        height: 30px;
+        margin: auto;
+        border-radius: 5px;
+        border: 1px solid grey;
+    }
+
+    &__button {
+        width: 100px;
+        border-radius: 2px;
+        margin: auto;
+    }
+
+}
